@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		770B37ED0679A11B001EADE2 /* JiraBuddy_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* JiraBuddy_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* JiraBuddy_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* JiraBuddy_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BE03F2A210F84926008B09D4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE03F2A110F84926008B09D4 /* Sparkle.framework */; };
+		BE03F2B510F8493E008B09D4 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE03F2A110F84926008B09D4 /* Sparkle.framework */; };
+		BE45CFB610F645A20029F6D1 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFB110F645A20029F6D1 /* ASIFormDataRequest.m */; };
+		BE45CFB710F645A20029F6D1 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFB210F645A20029F6D1 /* ASIHTTPRequest.m */; };
+		BE45CFB810F645A20029F6D1 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFB310F645A20029F6D1 /* ASIInputStream.m */; };
+		BE45CFB910F645A20029F6D1 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFB410F645A20029F6D1 /* ASINetworkQueue.m */; };
+		BE45CFBA10F645A20029F6D1 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFB510F645A20029F6D1 /* ASINSStringAdditions.m */; };
+		BE45CFC010F646290029F6D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE45CFBF10F646290029F6D1 /* SystemConfiguration.framework */; };
+		BE45CFC410F646370029F6D1 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE45CFC310F646370029F6D1 /* libz.1.2.3.dylib */; };
+		BE45CFC610F646500029F6D1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE45CFC510F646500029F6D1 /* CoreServices.framework */; };
+		BE45CFCE10F649510029F6D1 /* IssueFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45CFCD10F649510029F6D1 /* IssueFetcher.m */; };
+		BE45D01C10F66AAF0029F6D1 /* login.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE45D01B10F66AAF0029F6D1 /* login.txt */; };
+		BE45D04210F676B50029F6D1 /* getIssues.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE45D04110F676B50029F6D1 /* getIssues.txt */; };
+		BEA4A43410F911BA003C21A6 /* JiraPal.icns in Resources */ = {isa = PBXBuildFile; fileRef = BEA4A43310F911BA003C21A6 /* JiraPal.icns */; };
+		BEA4A48410F91D00003C21A6 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = BEA4A48310F91D00003C21A6 /* Credits.html */; };
+		BEA4A49410F928CC003C21A6 /* getDefaultIssues.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEA4A49310F928CC003C21A6 /* getDefaultIssues.txt */; };
+		BEA4A49910F92B7B003C21A6 /* EntityFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA4A49810F92B7B003C21A6 /* EntityFetcher.m */; };
+		BEA4A5D910F981FD003C21A6 /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA4A5D710F981FD003C21A6 /* Issue.m */; };
+		BEB2B54610FCFD050063E846 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2B54510FCFD050063E846 /* Growl.framework */; };
+		BEB2B57C10FCFE330063E846 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEB2B54510FCFD050063E846 /* Growl.framework */; };
+		BEB2B64510FD39200063E846 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = BEB2B53D10FCFC080063E846 /* Growl Registration Ticket.growlRegDict */; };
+		BEE86304110042C4006040BB /* SimpleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE86303110042C4006040BB /* SimpleFetcher.m */; };
+		BEF668F910F6CFD10090F05C /* Filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEF668F810F6CFD10090F05C /* Filter.txt */; };
+		BEF6690810F6EE470090F05C /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6690710F6EE470090F05C /* LoginManager.m */; };
+		BEF66AC510F819EC0090F05C /* Priority.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEF66AC410F819EC0090F05C /* Priority.txt */; };
+		BEF66BE110F837C00090F05C /* Priority.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF66BDD10F837C00090F05C /* Priority.m */; };
+		BEF66BE210F837C00090F05C /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF66BDF10F837C00090F05C /* Filter.m */; };
+		BEFC7A8F111F14460023D07F /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFC7A8D111F14460023D07F /* error.png */; };
+		BEFC7A90111F14460023D07F /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFC7A8E111F14460023D07F /* success.png */; };
+		BEFFDE1F10FFC97900A85861 /* libcrypto.0.9.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFFDE1E10FFC97900A85861 /* libcrypto.0.9.7.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE03F2BB10F84943008B09D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE03F2B510F8493E008B09D4 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB2B57F10FCFE510063E846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BEB2B57C10FCFE330063E846 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* JiraPal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiraPal_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* JiraBuddy_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = JiraBuddy_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* JiraBuddy_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiraBuddy_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* JiraBuddy_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiraBuddy_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JiraPal-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "JiraPal-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* JiraPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE03F2A110F84926008B09D4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		BE45CFAB10F645A20029F6D1 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		BE45CFAC10F645A20029F6D1 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		BE45CFAD10F645A20029F6D1 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		BE45CFAE10F645A20029F6D1 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		BE45CFAF10F645A20029F6D1 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		BE45CFB010F645A20029F6D1 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		BE45CFB110F645A20029F6D1 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		BE45CFB210F645A20029F6D1 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		BE45CFB310F645A20029F6D1 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		BE45CFB410F645A20029F6D1 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		BE45CFB510F645A20029F6D1 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		BE45CFBF10F646290029F6D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE45CFC310F646370029F6D1 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		BE45CFC510F646500029F6D1 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BE45CFCC10F649510029F6D1 /* IssueFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueFetcher.h; sourceTree = "<group>"; };
+		BE45CFCD10F649510029F6D1 /* IssueFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueFetcher.m; sourceTree = "<group>"; };
+		BE45D01B10F66AAF0029F6D1 /* login.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = login.txt; sourceTree = "<group>"; };
+		BE45D04110F676B50029F6D1 /* getIssues.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getIssues.txt; sourceTree = "<group>"; };
+		BEA4A43310F911BA003C21A6 /* JiraPal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = JiraPal.icns; sourceTree = "<group>"; };
+		BEA4A48310F91D00003C21A6 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		BEA4A49310F928CC003C21A6 /* getDefaultIssues.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getDefaultIssues.txt; sourceTree = "<group>"; };
+		BEA4A49710F92B7B003C21A6 /* EntityFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityFetcher.h; sourceTree = "<group>"; };
+		BEA4A49810F92B7B003C21A6 /* EntityFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityFetcher.m; sourceTree = "<group>"; };
+		BEA4A5D710F981FD003C21A6 /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
+		BEA4A5D810F981FD003C21A6 /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
+		BEB2B53D10FCFC080063E846 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		BEB2B54510FCFD050063E846 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		BEE86302110042C4006040BB /* SimpleFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFetcher.h; sourceTree = "<group>"; };
+		BEE86303110042C4006040BB /* SimpleFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFetcher.m; sourceTree = "<group>"; };
+		BEF668F810F6CFD10090F05C /* Filter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Filter.txt; sourceTree = "<group>"; };
+		BEF6690610F6EE470090F05C /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		BEF6690710F6EE470090F05C /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		BEF66AC410F819EC0090F05C /* Priority.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Priority.txt; sourceTree = "<group>"; };
+		BEF66BDD10F837C00090F05C /* Priority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Priority.m; sourceTree = "<group>"; };
+		BEF66BDE10F837C00090F05C /* Priority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Priority.h; sourceTree = "<group>"; };
+		BEF66BDF10F837C00090F05C /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		BEF66BE010F837C00090F05C /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		BEFC7A8D111F14460023D07F /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		BEFC7A8E111F14460023D07F /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		BEFFDE1E10FFC97900A85861 /* libcrypto.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.7.dylib; path = usr/lib/libcrypto.0.9.7.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				BE45CFC010F646290029F6D1 /* SystemConfiguration.framework in Frameworks */,
+				BE45CFC410F646370029F6D1 /* libz.1.2.3.dylib in Frameworks */,
+				BE45CFC610F646500029F6D1 /* CoreServices.framework in Frameworks */,
+				BE03F2A210F84926008B09D4 /* Sparkle.framework in Frameworks */,
+				BEB2B54610FCFD050063E846 /* Growl.framework in Frameworks */,
+				BEFFDE1F10FFC97900A85861 /* libcrypto.0.9.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77C8280B06725ACE000B614F /* JiraBuddy_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* JiraBuddy_AppDelegate.m */,
+				BE45CFCC10F649510029F6D1 /* IssueFetcher.h */,
+				BE45CFCD10F649510029F6D1 /* IssueFetcher.m */,
+				BEF6690610F6EE470090F05C /* LoginManager.h */,
+				BEF6690710F6EE470090F05C /* LoginManager.m */,
+				BEA4A49710F92B7B003C21A6 /* EntityFetcher.h */,
+				BEA4A49810F92B7B003C21A6 /* EntityFetcher.m */,
+				BEE86302110042C4006040BB /* SimpleFetcher.h */,
+				BEE86303110042C4006040BB /* SimpleFetcher.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2B54510FCFD050063E846 /* Growl.framework */,
+				BE03F2A110F84926008B09D4 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* JiraPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* JiraBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE45CFBF10F646290029F6D1 /* SystemConfiguration.framework */,
+				BE45CFC310F646370029F6D1 /* libz.1.2.3.dylib */,
+				BE45CFC510F646500029F6D1 /* CoreServices.framework */,
+				BEFFDE1E10FFC97900A85861 /* libcrypto.0.9.7.dylib */,
+			);
+			name = JiraBuddy;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4A42810F90FE4003C21A6 /* ASIHTTPRequest */,
+				32CA4F630368D1EE00C91783 /* JiraPal_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* JiraPal-Info.plist */,
+				BEA4A43310F911BA003C21A6 /* JiraPal.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				BE45D01B10F66AAF0029F6D1 /* login.txt */,
+				BEFC7A8D111F14460023D07F /* error.png */,
+				BEFC7A8E111F14460023D07F /* success.png */,
+				BEF66AC410F819EC0090F05C /* Priority.txt */,
+				BE45D04110F676B50029F6D1 /* getIssues.txt */,
+				BEA4A49310F928CC003C21A6 /* getDefaultIssues.txt */,
+				BEF668F810F6CFD10090F05C /* Filter.txt */,
+				BEA4A48310F91D00003C21A6 /* Credits.html */,
+				BEB2B53D10FCFC080063E846 /* Growl Registration Ticket.growlRegDict */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* JiraBuddy_DataModel.xcdatamodel */,
+				BEA4A5D710F981FD003C21A6 /* Issue.m */,
+				BEA4A5D810F981FD003C21A6 /* Issue.h */,
+				BEF66BDD10F837C00090F05C /* Priority.m */,
+				BEF66BDE10F837C00090F05C /* Priority.h */,
+				BEF66BDF10F837C00090F05C /* Filter.m */,
+				BEF66BE010F837C00090F05C /* Filter.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BEA4A42810F90FE4003C21A6 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BE45CFAB10F645A20029F6D1 /* ASIFormDataRequest.h */,
+				BE45CFAC10F645A20029F6D1 /* ASIHTTPRequest.h */,
+				BE45CFAD10F645A20029F6D1 /* ASIHTTPRequestConfig.h */,
+				BE45CFAE10F645A20029F6D1 /* ASIInputStream.h */,
+				BE45CFAF10F645A20029F6D1 /* ASINetworkQueue.h */,
+				BE45CFB010F645A20029F6D1 /* ASINSStringAdditions.h */,
+				BE45CFB110F645A20029F6D1 /* ASIFormDataRequest.m */,
+				BE45CFB210F645A20029F6D1 /* ASIHTTPRequest.m */,
+				BE45CFB310F645A20029F6D1 /* ASIInputStream.m */,
+				BE45CFB410F645A20029F6D1 /* ASINetworkQueue.m */,
+				BE45CFB510F645A20029F6D1 /* ASINSStringAdditions.m */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* JiraPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "JiraPal" */;
+			buildPhases = (
+				BEB2B57F10FCFE510063E846 /* CopyFiles */,
+				BE03F2BB10F84943008B09D4 /* CopyFiles */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiraPal;
+			productInstallPath = "$(HOME)/Applications";
+			productName = JiraBuddy;
+			productReference = 8D1107320486CEB800E47090 /* JiraPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "JiraPal" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* JiraBuddy */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* JiraPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2B64510FD39200063E846 /* Growl Registration Ticket.growlRegDict in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				BE45D01C10F66AAF0029F6D1 /* login.txt in Resources */,
+				BE45D04210F676B50029F6D1 /* getIssues.txt in Resources */,
+				BEF668F910F6CFD10090F05C /* Filter.txt in Resources */,
+				BEF66AC510F819EC0090F05C /* Priority.txt in Resources */,
+				BEA4A43410F911BA003C21A6 /* JiraPal.icns in Resources */,
+				BEA4A48410F91D00003C21A6 /* Credits.html in Resources */,
+				BEA4A49410F928CC003C21A6 /* getDefaultIssues.txt in Resources */,
+				BEFC7A8F111F14460023D07F /* error.png in Resources */,
+				BEFC7A90111F14460023D07F /* success.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* JiraBuddy_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* JiraBuddy_DataModel.xcdatamodel in Sources */,
+				BE45CFB610F645A20029F6D1 /* ASIFormDataRequest.m in Sources */,
+				BE45CFB710F645A20029F6D1 /* ASIHTTPRequest.m in Sources */,
+				BE45CFB810F645A20029F6D1 /* ASIInputStream.m in Sources */,
+				BE45CFB910F645A20029F6D1 /* ASINetworkQueue.m in Sources */,
+				BE45CFBA10F645A20029F6D1 /* ASINSStringAdditions.m in Sources */,
+				BE45CFCE10F649510029F6D1 /* IssueFetcher.m in Sources */,
+				BEF6690810F6EE470090F05C /* LoginManager.m in Sources */,
+				BEF66BE110F837C00090F05C /* Priority.m in Sources */,
+				BEF66BE210F837C00090F05C /* Filter.m in Sources */,
+				BEA4A49910F92B7B003C21A6 /* EntityFetcher.m in Sources */,
+				BEA4A5D910F981FD003C21A6 /* Issue.m in Sources */,
+				BEE86304110042C4006040BB /* SimpleFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JiraPal_Prefix.pch;
+				INFOPLIST_FILE = "JiraPal-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = JiraPal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JiraPal_Prefix.pch;
+				INFOPLIST_FILE = "JiraPal-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = JiraPal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "JiraPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "JiraPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
